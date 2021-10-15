@@ -1,0 +1,24 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Space Grotesk;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+span {
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Ogg Trial Italic';
+  src: local('Ogg Trial Italic'), url('/font/Ogg-RegularItalic.otf') format('truetype');
+}

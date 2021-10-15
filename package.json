@@ -1,0 +1,42 @@
+{
+  "name": "next-frontapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next build && next export"
+  },
+  "dependencies": {
+    "@aws-amplify/auth": "^4.3.9",
+    "@aws-amplify/core": "^4.3.1",
+    "@aws-amplify/ui-react": "^1.2.19",
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@mui/icons-material": "^5.0.3",
+    "@mui/material": "^5.0.3",
+    "aws-amplify": "^4.3.1",
+    "aws-cognito-next": "^3.0.4",
+    "embla-carousel-react": "^5.0.1",
+    "i18next": "^21.2.4",
+    "i18next-fs-backend": "^1.1.1",
+    "i18next-http-middleware": "^3.1.4",
+    "next": "11.1.0",
+    "next-connect": "^0.10.2",
+    "next-i18next": "8.6.0",
+    "next-iron-session": "^4.2.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.9",
+    "@types/react": "^17.0.27",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.0",
+    "typescript": "^4.4.3"
+  }
+}
