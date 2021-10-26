@@ -6,7 +6,7 @@ const path = require('path');
 module.exports = {
   i18n,
   reactStrictMode: true,
-  target: "serverless",
+  target: "experimental-serverless-trace",
   localePath: path.resolve('./public/locales'),
         // environment varibales for production
         env: {
